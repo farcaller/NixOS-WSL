@@ -69,7 +69,7 @@ in
     # WSL does not support virtual consoles
     console.enable = false;
 
-    hardware.opengl.enable = true; # Enable GPU acceleration
+    hardware.opengl.enable = false; # Enable GPU acceleration
 
     environment = {
       # Only set the options if the files are managed by WSL
